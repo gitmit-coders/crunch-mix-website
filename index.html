@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crunch Mix</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background-color: #fff8f0;
+        }
+
+        h1 {
+            color: #ff5733;
+        }
+
+        /* 🔥 NEW: container for side-by-side */
+        .menu-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .menu {
+            background: white;
+            padding: 15px;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+            transition: 0.3s;
+        }
+
+        .menu:hover {
+            transform: scale(1.05);
+        }
+
+        .menu img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background: green;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background: darkgreen;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>🔥 Crunch Mix</h1>
+    <h3>Fresh | Tasty | Customizable</h3>
+
+    <!-- 🔥 FIX: sab cards ek container me -->
+    <div class="menu-container">
+
+        <div class="menu">
+            <img src="paneer crunch salad.jpg">
+            <h2>🍟 Paneer Chips Mix</h2>
+            <p>₹70</p>
+        </div>
+
+        <div class="menu">
+            <img src="cheese salad.jpg">
+            <h2>🌶 Masala Chips Mix</h2>
+            <p>₹60</p>
+        </div>
+
+        <div class="menu">
+            <img src="masala chips.jpg">
+            <h2>🧀 Cheese Chips Mix</h2>
+            <p>₹80</p>
+        </div>
+
+    </div>
+
+    <h2>🛒 Order Now</h2>
+
+    <a class="btn" href="https://wa.me/919163995313">Order on WhatsApp</a>
+
+    <br><br>
+
+    <h2>📝 Feedback</h2>
+    <a class="btn" href="#">Give Feedback</a>
+
+    <br><br>
+
+    <h2>📍 Location</h2>
+    <p>Near College Gate / Market Area</p>
+
+    <h2>📞 Contact</h2>
+    <p>+91 9163 995313</p>
+
+    <br><br>
+
+    <p>Made by Amit Gupta 🚀</p>
+
+</body>
+</html>
